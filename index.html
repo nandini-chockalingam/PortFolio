@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- emailjs cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+</head>
+
+<!-- mode  changing -->
+
+<body class="light-mode">
+    <span class="toggle-icon" onclick="toggleMode()">🌙</span>
+
+
+    <!-- pg1  nd sec1-->
+    <nav class="sidebar">
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home"><i class="fas fa-home"></i> <span>Home</span></a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
+            <li><a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i> <span>Skills</span></a></li>
+            <li><a href="#projects"><i class="fas fa-briefcase"></i> <span>Project</span></a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+
+    <!-- con and img -->
+    <div class="main-content">
+        <section id="home">
+            <h1>d</h1>
+            <div class="txt">
+                <h1>Hey there! My name is Nandini Chockalingam and I'm a Full-Stack Developer</h1>
+
+                <button><a href="./Nandini_Resume.pdf">Download Resume <i
+                            class="fa-solid fa-arrow-down "></i></a></button>
+            </div>
+            <!-- <img src="./images/10001p.jpg" alt=""> -->
+            <div class="contactdiv">
+                <a href="mailto:scnandiniviji@gmail.comsubject=hello%20hereandbody=how are you?"><i class="fa-solid fa-envelope"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <!-- <a href="http://github.com/nandini-chockalingam"><i class="fa-brands fa-github"></i></a> -->
+            </div> <br>
+            <h4>"Let’s create something awesome together!"</h4>
+
+        </section>
+    </div>
+
+    
+
+
+
+    <!-- pg2 nd sec2 -->
+    <section id="about">
+
+        <h1 class="title" data-aos="fade" data-aos-duration="2000">COMPLIED: MY STORY</h1>
+        <div class="abttxt" data-aos="fade" data-aos-duration="3000">
+
+            <h1 class="firetext">"Pixels with purpose, </h1>
+            <h1 class="firetext">code with character."</h1>
+            <br>
+
+
+            <h4 data-aos="fade" data-aos-delay="700"> I build things for the web—sometimes small, sometimes complex, but
+                always with
+                passion.Whether it’s
+                crafting a smooth UI or making sure the backend runs like a well-oiled machine, I love the
+                process
+                of turning ideas into reality.
+                I approach every project with curiosity and a touch of creativity, always aiming to
+                bridge the gap between functionality and delight.</h4>
+
+            <!-- <a href="#home"> <button class="cnt"> CONNECT <i class="fa-solid fa-paper-plane"></i>
+                    <span class="ripple"></span></button></a> -->
+
+        </div>
+
+    </section>
+
+
+
+    <!-- pg3 -->
+
+    <div class="pg3">
+
+
+        <section id="skills">
+            <h2>SKILLS</h2>
+
+            <div class="skills-container " data-aos="zoom-in" data-aos-duration="2000">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 fa-5x" style="color: #E34F26; "></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt  fa-5x" style="color: #1572B6;"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js fa-5x" style="color: #F7DF1E;"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-node-js fa-5x" style="color: #339933;"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-card">
+                    <img src="./images/mongo.png" alt="MongoDB"
+                        style="width: 75px; height: 75px; ">
+                    <p>MongoDB</p>
+                </div> 
+                <div class="skill-card">
+                    <i class="fa-solid fa-database fa-4x" style="color: #4479A1;"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-card">
+                    <img src="./images/express.webp" class="express" alt="MongoDB">
+                    <p>Express</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-react fa-5x " style="color: #007396;"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-angular fa-5x" style="color: #bb0808;"></i>
+                    <p>Angular</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-java fa-5x" style="color: #007396;"></i>
+                    <p>Java</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    </section>
+    <!-- pg4 -->
+
+    <section id="projects" data-aos="zoom-in" data-aos-duration="2000">
+        <h2>PROJECT</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="./images/projectimg2.png" alt="Project Image">
+                <div class="project-info">
+                    <h3>Elite Select</h3>
+                    <p>Developed a full-stack responsive e-commerce web app using React, HTML, CSS, and Bootstrap. Implemented dynamic navigation with React Router, product search and filtering via React Hooks, and data storage with Node.js, Express, and MongoDB.  </p>
+                   
+                </div>
+
+            </div>
+            <div class="project-card">
+                <img src="./images/projectimg.png" alt="Project Image">
+
+                <div class="project-info">
+                    <h3>Fresh Fields</h3>
+                    <p>Built a product-buying website using HTML, CSS, JavaScript, and Bootstrap. Implemented user registration and login functionalities with Node.js, Express, and MongoDB. Integrated AOS animations and form handling to enhance the overall user experience .  </p>
+                    <!-- <a href="#" class="btn">View Project</a> -->
+                </div>
+
+            </div>
+            <div class="project-card">
+                <img src="./images/projectimg3.png" alt="Project Image">
+
+                <div class="project-info">
+                    <h3>Error Lens</h3>
+                    <p>A browser-based JavaScript debugging tool built with HTML, CSS, and JavaScript. It features real-time code execution using Web Workers, syntax highlighting with Prism.js, theme toggling, and a copyable output console. Ideal for testing and learning JavaScript interactively.
+
+                    </p>
+                    <!-- <a href="#" class="btn">View Project</a> -->
+                </div>
+
+            </div>
+            
+           
+
+        </div>
+        
+    </section>
+    <!-- pg5-->
+    <section id="contact">
+
+        <h2>GET IN TOUCH</h2>
+        <form id="contactForm">
+            <div class="details">
+                <input type="text" id="name" placeholder="YOUR NAME" required>
+                <input type="text" id="email" placeholder="YOUR EMAIL" required>
+
+            </div>
+            <textarea class="txtarea" id="message" placeholder="YOUR MESSAGE" required></textarea>
+            <button class="messagebtn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+
+
+
+
+    </section>
+
+
+</body>
+<!-- aos js -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- contact emailjs -->
+<script>
+    // Initialize EmailJS
+    (function () {
+        emailjs.init("g6k2xvp0ARObZc4rq"); // Replace with your actual Public Key
+    })();
+
+    // Send Email Function
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Collect form data
+        const formData = {
+            from_name: document.getElementById("name").value,
+            from_email: document.getElementById("email").value,
+            message: document.getElementById("message").value,
+        };
+
+        console.log("Sending data:", formData);
+
+        // Replace 'service_xxxxx' and 'template_xxxxx' with actual values
+        emailjs.send("service_tukrqki", "template_nzj3rr3", formData)
+            .then((response) => {
+                console.log("Email sent successfully!", response);
+                alert("Email sent successfully!");
+            })
+            .catch((error) => {
+                console.error("Email send error:", error);
+                alert("Failed to send email.");
+            });
+    });
+</script>
+
+
+<!-- js link -->
+<script src="./script.js"></script>
+
+
+</html>
